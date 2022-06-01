@@ -781,11 +781,12 @@ a:hover {
 }
 
 .hero .hero-subtitle {
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 250;
+  text-align: justify;
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
   .hero .hero-subtitle {
     font-size: 2.5rem;
   }
@@ -967,7 +968,11 @@ a:hover {
 
 .work-img img {
   transition: all 1s;
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
 }
+
 
 .work-content {
   padding: 2rem 3% 1rem 4%;
