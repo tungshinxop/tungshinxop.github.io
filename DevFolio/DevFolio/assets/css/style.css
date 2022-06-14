@@ -1039,7 +1039,7 @@ a:hover {
 }
 
 .portfolio-details .portfolio-info h3 {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -1485,4 +1485,9 @@ footer .credits {
 
 footer .credits a {
   color: #fff;
+}
+
+.html5-video-player {
+  max-width: 100vh;
+  height: auto;
 }
