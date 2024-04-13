@@ -180,6 +180,7 @@ a:hover {
 .title-left {
   font-size: 2rem;
   position: relative;
+  bottom: 3px;
 }
 
 .title-left:before {
@@ -771,7 +772,7 @@ a:hover {
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  height: 100vh;
+  height: 40vh;
   position: relative;
   color: #fff;
 }
